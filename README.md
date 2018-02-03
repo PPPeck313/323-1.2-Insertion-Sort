@@ -1,9 +1,9 @@
 # 1.2-Insertion-Sort<br />
-CSC 323-32: Project 1.2 <Insertion Sort> (C++/Java)<br />
-Preston Peck<br />
-Due date: Sept. 13, 2016 <br />
+### CSC 323-32: Project 1.2 <Insertion Sort> (C++/Java)<br />
+### Preston Peck<br />
+### Due date: Sept. 13, 2016 <br />
 
-**** Algorithm steps for linked list insertion sort:<br />
+#### **** Algorithm steps for linked list insertion sort:<br />
 
 Step 0: prepare the skeleton of your program, including classes, etc.<br />
 
@@ -51,7 +51,7 @@ Step 15: outFile2 <-- open output file2<br />
 
 Step 16: printSortedList (outFile2 , textListHead)<br />
 
-INPUT<br />
+### INPUT<br />
 you<br />
 i he she<br />
 are is<br />
@@ -83,7 +83,7 @@ measure of devotion that we here highly resolve that these dead shall not have d
 this nation under god shall have a new birth of freedom and that government of the people by the<br />
 people for the people shall not perish from the earth<br />
 
-OUTPUT<br />
+### OUTPUT<br />
 listHead --> (dummy, you) --> (you, null)<br />
 
 listHead --> (dummy, i) --> (i, you) --> (you, null)<br />
@@ -161,7 +161,6 @@ listHead --> (dummy, a) --> (a, am) --> (am, an) --> (an, and) --> (and, are) --
 listHead --> (dummy, a) --> (a, am) --> (am, an) --> (an, and) --> (and, are) --> (are, as) --> (as, for) --> (for, he) --> (he, here) --> (here, him) --> (him, how) --> (how, i) --> (i, if) --> (if, in) --> (in, is) --> (is, it) --> (it, no) --> (no, not) --> (not, of) --> (of, on) --> (on, one) --> (one, or) --> (or, she) --> (she, that) --> (that, the) --> (the, them) --> (them, there) --> (there, they) --> (they, this) --> (this, was) --> (was, were) --> (were, what) --> (what, when) --> (when, where) --> (where, who) --> (who, why) --> (why, yes) --> (yes, you) --> (you, null)<br />
 
 listHead --> (dummy, a) --> (a, am) --> (am, an) --> (an, and) --> (and, are) --> (are, as) --> (as, be) --> (be, for) --> (for, he) --> (he, here) --> (here, him) --> (him, how) --> (how, i) --> (i, if) --> (if, in) --> (in, is) --> (is, it) --> (it, no) --> (no, not) --> (not, of) --> (of, on) --> (on, one) --> (one, or) --> (or, she) --> (she, that) --> (that, the) --> (the, them) --> (them, there) --> (there, they) --> (they, this) --> (this, was) --> (was, were) --> (were, what) --> (what, when) --> (when, where) --> (where, who) --> (who, why) --> (why, yes) --> (yes, you) --> (you, null)<br />
-
 
 listHead --> (dummy, ago) --> (ago, four) --> (four, score) --> (score, seven) --> (seven, years) --> (years, null)<br />
 
