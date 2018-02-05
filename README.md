@@ -5,51 +5,51 @@
 
 #### **** Algorithm steps for linked list insertion sort:<br />
 
-Step 0: prepare the skeleton of your program, including classes, etc.<br />
+**Step 0:** prepare the skeleton of your program, including classes, etc.<br />
 
-Step 1:  inFile1 <-- open common word file<br />
+**Step 1:**  inFile1 <-- open common word file<br />
             outFile1 <-- open outFile-1<br />
 	    
-Step 2: CwordlistHead <-- make a new linked list by the list constructor where CwordlistHead points to a dummy node<br />
+**Step 2:** CwordlistHead <-- make a new linked list by the list constructor where CwordlistHead points to a dummy node<br />
 
-Step 3:  commonWord <-- read a word from inFile1<br />
+**Step 3:**  commonWord <-- read a word from inFile1<br />
 
-Step 4:  spot <-- findSpot(CwordlistHead , commonWord) // see algorithm steps below<br />
+**Step 4:**  spot <-- findSpot(CwordlistHead , commonWord) // see algorithm steps below<br />
 
-Step 5:  if spot != null // not duplicates<br />
-     5.1: newNode <-- make a new node for  commonWord<br />
-     5.2: call listInsert (Spot, newNode)<br />
+**Step 5:**  if spot != null // not duplicates<br />
+     **5.1:** newNode <-- make a new node for  commonWord<br />
+     **5.2:** call listInsert (Spot, newNode)<br />
      
-Step 6:  debugPrint(outFile1, CwordlistHead)<br />
+**Step 6:**  debugPrint(outFile1, CwordlistHead)<br />
 
-Step 7: repeat step 3 to step 6 until the inFile1 is empty<br />
+**Step 7:** repeat step 3 to step 6 until the inFile1 is empty<br />
 
-Step 8: inFile2 <-- open English text file<br />
+**Step 8:** inFile2 <-- open English text file<br />
 
-Step  9: insertionCnt <-- 0<br />
+**Step 9:** insertionCnt <-- 0<br />
 
-Step 10: textListHead <-- make a new linked list by the list constructor where textListHead points to a dummy node<br />
+**Step 10:** textListHead <-- make a new linked list by the list constructor where textListHead points to a dummy node<br />
 
-Step 11:  textWord <-- read a word from inFile2<br />
+**Step 11:**  textWord <-- read a word from inFile2<br />
 
-Step 12:  if (isCommonWord (CwordlistHead, data) == false)<br />
-     12.1:  spot <-- findSpot(textListHead , textWord)<br />
-     12.2: if spot == null <br />
+**Step 12:**  if (isCommonWord (CwordlistHead, data) == false)<br />
+     **12.1:**  spot <-- findSpot(textListHead , textWord)<br />
+     **12.2:** if spot == null <br />
                   Spot.count ++<br />
 	else<br />
 	    newNode <--  make a new node for  textWord<br />
                   listInsert (Spot, newNode) <br />
                   insertionCnt++<br />
 		  
-Step 13: if insertionCnt >= 5<br />
+**Step 13:** if insertionCnt >= 5<br />
 	debugPrint(outFile1, textListHead) <br />
  	insertionCnt <-- 0 <br />
 	
-Step 14: repeat step 11 to step 13 until the inFile2 is empty<br />
+**Step 14:** repeat step 11 to step 13 until the inFile2 is empty<br />
 
-Step 15: outFile2 <-- open output file2<br />
+**Step 15:** outFile2 <-- open output file2<br />
 
-Step 16: printSortedList (outFile2 , textListHead)<br />
+**Step 16:** printSortedList (outFile2 , textListHead)<br />
 
 ### INPUT<br />
 you<br />
